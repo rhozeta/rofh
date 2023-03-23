@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.heroBox {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(0%2c 158%2c 255%2c 1)'%3e%3c/rect%3e%3cuse xlink:href='%23SvgjsSymbol1015' x='0' y='0'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsSymbol1015' x='720' y='0'%3e%3c/use%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpath d='M-1 0 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0z' id='SvgjsPath1009'%3e%3c/path%3e%3cpath d='M-3 0 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0z' id='SvgjsPath1012'%3e%3c/path%3e%3cpath d='M-5 0 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' id='SvgjsPath1011'%3e%3c/path%3e%3cpath d='M2 -2 L-2 2z' id='SvgjsPath1013'%3e%3c/path%3e%3cpath d='M6 -6 L-6 6z' id='SvgjsPath1010'%3e%3c/path%3e%3cpath d='M30 -30 L-30 30z' id='SvgjsPath1014'%3e%3c/path%3e%3c/defs%3e%3csymbol id='SvgjsSymbol1015'%3e%3cuse xlink:href='%23SvgjsPath1009' x='30' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='30' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='30' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='30' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='30' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='30' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='30' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='30' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='30' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='30' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='90' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='90' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='90' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='90' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='90' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='90' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='90' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='90' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='90' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='90' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='150' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='150' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='150' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='150' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='150' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='150' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='150' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='150' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='150' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='150' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='210' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='210' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='210' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='210' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='210' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='210' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='210' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='210' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='210' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='210' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='270' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='270' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='270' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='270' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='270' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='270' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='270' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='270' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='270' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='270' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='330' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1014' x='330' y='90' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='330' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='330' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='330' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='330' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='330' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1014' x='330' y='450' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='330' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='330' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='390' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='390' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='390' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='390' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='390' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='390' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='390' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='390' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='390' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='390' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='450' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='450' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='450' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='450' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='450' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='450' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='450' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='450' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='450' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='450' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='510' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='510' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='510' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='510' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='510' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='510' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='510' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='510' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='510' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='510' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='570' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='570' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='570' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='570' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1014' x='570' y='270' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='570' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='570' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='570' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='570' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='570' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='630' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='630' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='630' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='630' y='210' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='630' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1012' x='630' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='630' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='630' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='630' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='630' y='570' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='690' y='30' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='690' y='90' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='690' y='150' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1014' x='690' y='210' stroke='%231c538e' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='690' y='270' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='690' y='330' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1013' x='690' y='390' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1009' x='690' y='450' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1010' x='690' y='510' stroke='%231c538e'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1011' x='690' y='570' stroke='%231c538e'%3e%3c/use%3e%3c/symbol%3e%3c/svg%3e");
+  background-size: cover;
+  box-shadow: 2px 2px 4px rgba(70,70,70,0.30);
+}
+
+.heroCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 1rem;
+  padding: 3rem;
+  box-shadow: 2px 2px 4px rgba(70,70,70,0.30);
+}
+
+.heroLogo {
+  max-width: 350px;
+}
+
+.heroBtnRow {
+  width: 100%;
+  margin: 1rem;
+}
+
+.heroBtn {
+  margin-top:1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutUs {
+  margin: 2rem;
+  padding: 4rem 0 4rem 0; 
+}
+
+.ourPhilosophy {
+  border-radius: 15px;
+  margin:auto;
+  background-color: #009EFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23009EFF' width='11' height='11'/%3E%3Crect fill='%23049fff' x='10' width='11' height='11'/%3E%3Crect fill='%2307a0ff' y='10' width='11' height='11'/%3E%3Crect fill='%230ba0ff' x='20' width='11' height='11'/%3E%3Crect fill='%230fa1ff' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%2312a2ff' y='20' width='11' height='11'/%3E%3Crect fill='%2315a3ff' x='30' width='11' height='11'/%3E%3Crect fill='%2317a3ff' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%231aa4ff' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%231ca5ff' y='30' width='11' height='11'/%3E%3Crect fill='%231ea6ff' x='40' width='11' height='11'/%3E%3Crect fill='%2320a6ff' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%2322a7ff' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%2324a8ff' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%2326a8ff' y='40' width='11' height='11'/%3E%3Crect fill='%2328a9ff' x='50' width='11' height='11'/%3E%3Crect fill='%232aaaff' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%232cabff' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%232eabff' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%2330acff' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%2331adff' y='50' width='11' height='11'/%3E%3Crect fill='%2333aeff' x='60' width='11' height='11'/%3E%3Crect fill='%2335aeff' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%2336afff' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%2338b0ff' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%233ab0ff' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%233bb1ff' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%233db2ff' x='70' width='11' height='11'/%3E%3Crect fill='%233fb3ff' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%2340b3ff' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%2342b4ff' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%2343b5ff' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2345b5ff' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%2347b6ff' x='80' width='11' height='11'/%3E%3Crect fill='%2348b7ff' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%234ab8ff' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%234bb8ff' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%234db9ff' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%234ebaff' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%2350baff' x='90' width='11' height='11'/%3E%3Crect fill='%2351bbff' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2353bcff' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%2354bcff' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%2356bdff' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%2357beff' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%2359bfff' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%235abfff' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%235cc0ff' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%235dc1ff' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%235fc1ff' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%2360c2ff' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%2361c3ff' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%2363c3ff' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%2364c4ff' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%2366c5ff' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%2367c5ff' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%2369c6ff' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%236ac7ff' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%236cc7ff' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%236DC8FF' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+
+  background-size: cover;
+  background-position: center;
+
+}
+
+.ourPhilosophyCopy {
+  padding: 2rem;
+  color:white;
+}
+
+.ourPhilosophyCopy > p {
+  padding: 1rem 0;
+}
+
+.ourPhilosophyCopy > h1 {
+  padding: 1rem 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; 
+}
+.aboutCopy {
+  margin: auto;
+  
+  border-radius: 10px;
+  padding: 2rem;  
+}
+.aboutCopy > p {
+  padding: 1rem 0;
+}
+
+.aboutCopy > h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; 
+}
+
+.tabBtn {
+  /* background-color: #fbcd08 !important; */
+  border-radius: 10px !important;
+}
+.support {
+  background-color: #e6eaf5;
+  padding: 4rem 1rem 4rem 1rem; 
+
+}
+
+.support > h1 {
+  padding-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; 
+}
+
+.fosterCategoriesCard {
+height: 100%;
+padding: 2rem; 
+border-radius: 15px;
+}
+
+.fosterCategoriesCopy {
+  margin: auto;
+}
+
+.services {
+padding: 2rem;  
+border-radius: 15px;
+height: 100%;
+}
+
+.servicesCopy > h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; 
+}
+
+.servicesCopy {
+  margin: auto;
+
+}
+
+.iconRow {
+  padding: 2rem;
+
+}
+
+.rowItem {
+  background-color: #e6eaf5;
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 15px;
+  max-width: min-content;
+
+
+  
+}
+
+.mixedModality{
+  padding: 4rem 1rem 4rem 1rem; 
+}
+
+.mixedModalityCopy > h1 {
+  padding-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; 
+}
+
+.mixedModalityCopy {
+  padding: 2rem 1rem;
+  margin: auto ;
+  padding-top: 3rem;
+}
+
+.homeImg {
+  height: auto;
+  width: 100%;
+}
+
+.contactCopy {
+  height: 100%;
+  border-radius: 15px;
+  padding: 2rem;
+
+  margin: auto;
+
+}
+
+.contactCopy > h1 {
+  padding-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; 
+  
+}
+
+.contactContainer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
